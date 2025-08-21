@@ -20,6 +20,8 @@
 
 
 ## วิธีการตรวจสอบว่ามีการใช้งาน component ใน binary file หรือยัง
- ให้ใช้ idf.py size-files | grep <ชื่อไฟล์ใน component> 
- จะเห็นรายละเอียดของการใช้ code และ data จากไฟล์ใน component
- ตัวอย่าง idf.py size-files | grep sensor
+```bash
+ให้ใช้ idf.py size-files | grep <ชื่อไฟล์ใน component> 
+จะเห็นรายละเอียดของการใช้ code และ data จากไฟล์ใน component
+ตัวอย่าง idf.py size-files | grep sensor
+```
