@@ -17,3 +17,9 @@
 [(คลิกเพื่อดูจากใบงานที่ 7)](https://github.com/SPECIAL-TOPICS-COMPUTER-THURSDAY/Lab-07-ESP32-Components/blob/25bdbdd99a552249e83ae37346502de23b81b2bf/Labsheet%2007-1.md?plain=1#L345)
 
 <img width="1579" height="964" alt="image" src="https://github.com/user-attachments/assets/aaa3e21b-b6a6-47d1-b2d8-25af96c07920" />
+
+
+## วิธีการตรวจสอบว่ามีการใช้งาน component ใน binary file หรือยัง
+ ให้ใช้ idf.py size-files | grep <ชื่อไฟล์ใน component> 
+ จะเห็นรายละเอียดของการใช้ code และ data จากไฟล์ใน component
+ ตัวอย่าง idf.py size-files | grep sensor
