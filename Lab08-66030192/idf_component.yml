@@ -1,9 +1,7 @@
-version: "0.1.0"
 dependencies:
   idf: ">=6.0.0"
   display:
-    version: "*"
-    git: "https://github.com/mamSupat/Display.git"
+    git: https://github.com/mamSupat/Display.git
     path: display
   sensor:
     git: https://github.com/PhumAkrthum/sensor03.git
