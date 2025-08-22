@@ -4,6 +4,6 @@ dependencies:
     git: https://github.com/mamSupat/Display.git
   sensor:
     git: https://github.com/PhumAkrthum/sensor03.git
+    path: sensor
   led:
     git: https://github.com/jamelswift/LED08.git
-    
